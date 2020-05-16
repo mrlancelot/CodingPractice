@@ -7,7 +7,6 @@ public class Strings {
         n += sc.nextLine();
         sc.close();
         n = n.toLowerCase();
-//        System.out.println(n.length());
 
         TreeSet<String> ch = new TreeSet<>();
         for (int i = 0; i < n.length(); i++) {

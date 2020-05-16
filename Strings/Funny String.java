@@ -23,7 +23,6 @@ public class Strings {
                 if (a != b) {
                     count++;
                 }
-
             }
             if (count > 0) {
                 System.out.println("Not Funny");

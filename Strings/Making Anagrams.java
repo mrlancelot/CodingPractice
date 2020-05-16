@@ -6,7 +6,6 @@ public class Strings {
         String n, m;
         n = sc.next();
         m = sc.next();
-
         char arr1[] = n.toCharArray();
         char arr2[] = m.toCharArray();
 

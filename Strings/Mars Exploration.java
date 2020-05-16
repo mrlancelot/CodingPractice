@@ -16,7 +16,6 @@ public class Strings {
 				count++;
 			if (!k.substring(2).equalsIgnoreCase("S"))
 				count++;
-//			System.out.println(k);
 			n = n.substring(3);
 			i = 0;
 		}
