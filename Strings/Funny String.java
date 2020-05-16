@@ -5,6 +5,7 @@ public class Strings {
         Scanner sc = new Scanner(System.in);
         int n;
         n = sc.nextInt();
+
         ArrayList<String> st = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             String e = sc.next();

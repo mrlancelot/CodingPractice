@@ -5,6 +5,7 @@ public class Strings {
 		Scanner sc = new Scanner(System.in);
 		String n;
 		n = sc.next();
+
 		int x = n.length();
 		int count = 0;
 		for (int i = 0; i < n.length();) {

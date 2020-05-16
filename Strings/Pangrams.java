@@ -15,7 +15,6 @@ public class Strings {
         }
 //        System.out.println(ch.size());
 
-//        System.out.println(ch.toString());
 
         if (ch.size() == 27) {
             System.out.println("pangram");
