@@ -3,13 +3,20 @@ import java.util.*;
 public class Strings {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		double n, m, a;
-		n = sc.nextDouble();
-		m = sc.nextDouble();
-		a = sc.nextDouble();
+		long n, m, a;
+		n = sc.nextInt();
+		m = sc.nextInt();
+		a = sc.nextInt();
 
-		double result = (Math.ceil(n/ a) * Math.ceil(m / a));
-		int x = (int) result;
-		System.out.println(x);
+		long countn = n / a;
+		long countm = m / a;
+
+		if (n % a != 0)
+			++countn;
+
+		if (m % a != 0)
+			++countm;
+
+		System.out.println(countn * countm);
 	}
 }
