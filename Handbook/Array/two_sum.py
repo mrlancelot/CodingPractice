@@ -1,10 +1,10 @@
-nums = [3,3]
+nums = [3,2,3]
 target = 6
-count = 0
-for i in range(len(nums)):
-    for j in range(len(nums)):
-        if (nums[i] + nums[j]) == target and i != j :
-            print(i,j)
-            count = 1
-    if count == 1:
-        break
+
+seen = {}
+
+for i, n in enumerate(nums):
+    if target - n in seen:
+        print(seen[target-n],i)
+    elif n not in seen:
+        seen[n] = i
